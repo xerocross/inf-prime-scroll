@@ -12,6 +12,9 @@ module.exports = [{
         path : path.resolve(__dirname, './dist'),
         publicPath : '/dist',
         filename : '[name].js',
+        library : 'InfPrimeScroll',
+        libraryTarget : 'umd',
+        umdNamedDefine : true
     },
     externals : {
         vue : "Vue" // remove this line if you want to bundle vue with the script
@@ -47,7 +50,7 @@ module.exports = [{
         ]
     },
     optimization : {
-        minimize : true
+        minimize : false
     },
     plugins : [
         new webpack.DefinePlugin({
