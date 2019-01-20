@@ -1,6 +1,6 @@
 {
-  "name": "xero.inf-prime-scroll",
-  "version": "0.1.4",
+  "name": "inf-prime-scroll",
+  "version": "0.1.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
