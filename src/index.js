@@ -1,2 +1,2 @@
-import InfPrimeScroll from "./components/prime-number-scroll.vue";
+import InfPrimeScroll from "./components/inf-prime-scroll.vue";
 export {InfPrimeScroll}
