@@ -1,14 +1,14 @@
-import PrimeNumberScroll from "./components/prime-number-scroll.vue";
+import InfPrimeScroll from "./components/prime-number-scroll.vue";
 import Vue from "vue";
 
 new Vue({
     el : "#prime-number-scroll",
     components : {
-        PrimeNumberScroll
+        InfPrimeScroll
     },
 
     render : function (createElement) {
-        return createElement(PrimeNumberScroll, {
+        return createElement(InfPrimeScroll, {
             props : {
                 primeWorkerUrl : "more-primes-worker.js",
                 busyImageUrl : "/busy3.gif"
