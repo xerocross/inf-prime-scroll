@@ -1,4 +1,5 @@
-import InfPrimeScroll from "./components/inf-prime-scroll.vue";
+import {InfPrimeScroll} from "./index.js";
+
 import Vue from "vue";
 
 new Vue({
