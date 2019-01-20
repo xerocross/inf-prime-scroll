@@ -1,5 +1,5 @@
 <template>
-    <div class="prime-numbers">
+    <div class="inf-prime-scroll">
         <p>
             This is a list of prime numbers being generated right now
             on your computer.  There is no logical or pre-set upper 
@@ -112,7 +112,7 @@ export default {
 }
 </script>
 <style lang="scss">
-.prime-numbers {
+.inf-prime-scroll {
     .prime-list {
         height: 300px;
         border-style: solid;
