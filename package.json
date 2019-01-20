@@ -1,5 +1,5 @@
 {
-  "name": "vue-project-template",
+  "name": "xero.inf-prime-scroll",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
@@ -11,7 +11,8 @@
     "start": "node app.js"
   },
   "keywords": [
-    ""
+    "vue",
+    "primes"
   ],
   "author": "Adam Cross",
   "license": "0BSD",
